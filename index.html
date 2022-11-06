@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/minhaFoto.png" type="image.png">
+    <title>Portfólio Wilson</title>
+
+    <!-- LINKS CSS -->
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- STYLE OF SCROOL BAR -->
+
+    <style>
+        ::-webkit-scrollbar {
+            width: 7px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
+            background: rgb(114, 3, 3);
+            -webkit-box-shadow: inset 0 0 6px rgb(168, 7, 7);
+        }
+    </style>
+</head>
+
+
+<body id="hiddenDiv">
+
+    <!-- NAVBAR -->
+
+    <nav class="menu">
+        <a href="#"><img src="./images/w.gif" id="logo" alt="" srcset=""></a>
+
+        <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+        <ul class="nav-list">
+
+          <li> <a class="menu-buttons" href="#container1">Início</a></li>
+          <li> <a class="menu-buttons" href="#container2">Sobre</a></li>
+          <li> <a class="menu-buttons" href="#container3">Projetos</a></li>
+          <li> <a class="menu-buttons" href="#container-skills">Habilidades</a></li>
+          <li> <a class="menu-buttons" href="#contact-container">Contato</a></li>
+            
+            <li>
+                <label for="checkbox" class="toogler" id="theme-alternate">
+                    <input type="checkbox" id="checkbox">
+                    <span class="ball"></span>
+                    <i class="fa fa-sun-o sun" aria-hidden="true"></i>
+                    <i class="fa fa-moon-o moon" aria-hidden="true"></i>
+                </label>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- CONTAINER OF PRESENTATION -->
+
+    <div id="container1">
+
+        <div id="container-of-tittle">
+            <h6 id="first-title-of-the-presentation-text">Olá! Eu sou </h6>
+            <h1 id="second-title-of-the-presentation-text">Wilson Canuto Graciano</h1>
+            <h2 id="third-title-of-the-presentation-text"> Desenvolvedor</h2>
+            <h4 id="fourth-title-of-the-presentation-text">Programador Front-End Júnior</h4>
+            <a href="curriculo.pdf" download="curriculo.pdf" data-anime="top"><button id="download-resume-button">
+            Baixar Curriculo</button> </a>
+
+            </a>
+            <a href="https://wilsoncanuto.github.io/projeto-ideias-de-documenta-o/" download="#" data-anime="top"><button id="download-resume-button">
+            Documentação de Serviço</button> </a>
+            
+        </a>
+        </div>
+
+        <div id="container-picture">
+            <img id="my-avatar" src="./images/17.png" alt="" data-anime="right">
+        </div>
+
+    </div>
+
+    <!-- CONTAINER OF DESCRIPTION -->
+
+    <div id="container2" data-anime="left">
+        <div id="container-about-me">
+            <img id="my-picture" src="./images/minhaFoto.png" alt="" srcset="" data-anime="top">
+        </div>
+
+        <div id="container-of-my-description">
+
+            <h1 id="text-about-me"> Sobre mim </h1>
+
+           <p id="paragraph-1-of-my-description" class="paragraphs-of-my-description" data-anime="left">
+            Antes de qualquer coisa, eu quero dizer que eu estou gostando de programar. A programação eu tive uma sensação ótima e percebi 
+            que finalmente encontrei algo que eu realmente gosto e isso me fascinou. Desde então, eu decidi que eu queria fazer isso e me tornar um programador.
+            Meu primeiro contato com tecnologia foi em 1998, quando fis um curso de manutenção de hardware e software. Mais o primeiro contato com código foi 2019 
+            quando comecei fazer minha Graduação em Analises e Desenvolvimento de sistemas na Universidade das Américas Fam campus mooca, terminei em 2022. 
+           </p>
+
+           <p id="paragraph-2-of-my-description" class="paragraphs-of-my-description" data-anime="right">
+            Eu escolhi o desenvolvimento Front-End como foco atual da minha carreira porque ele me da liberdade para fazer o que mais gosto na programação 
+            que é criar páginas e aplicações com visual atrativo, que podem ajudar simplificar a vida das pessoas, e venho me aprimorando diariamente nessa área.
+            Minhas especialidades: HTML5 / CSS / JavaScript / Java / Jsp / TypeScript / Github / Bootstrap / Jquery / NodeJS. Se você se interessou pelo meu perfil 
+            e queira me conhecer melhor, para um cargo na area de TI entre em contato, Vamos conversar Será um grande prazer falar com você.
+                
+            </p>
+            
+        </div>
+    
+    </div>
+
+    <!-- CONTAINER OF MY SKILLS -->
+
+    <div id="container-skills">
+        <h2 id="skills-text">Habilidades</h2>
+        <div id="container-stacks" data-anime="right">
+            <img class="img-stacks" src="./images/html.png" alt="">
+            <img class="img-stacks" src="./images/css.png">
+            <img class="img-stacks" src="./images/javascript.png" alt="">
+            <img class="img-stacks" src="./images/firebase.png" alt="">
+            <img class="img-stacks" src="./images/bootstrap.png" alt="">
+            <img class="img-stacks" src="./images/jquery.png" alt="" srcset="">
+            <img class="img-stacks" src="./images/git.png" alt="" srcset="">
+            <img class="img-stacks" src="./images/github.png" alt="" srcset="">
+            <img class="img-stacks" src="./images/node.png" alt="" srcset="">
+            <img class="img-stacks" src="./images/typescript.png" alt="" srcset="">
+            <img class="img-stacks" src="./images/discordia.png" alt="" srcset="">
+            
+        </div>
+    </div>
+
+    <!-- CONTAINER OF PROJECTS -->
+
+    <div id="container3">
+
+    <h2 id="projects-text">Projetos ao Clicar na imagem Redirecional ao Site Proposto </h2>
+
+        <div class="container-projects">
+            <div class="card" data-anime="left">
+            <div class="images-projects">
+            <a href="https://wilsoncanuto.github.io/Portf-lio-wilson">
+            <img class="projects-images" src="./images/projetos/projeto1.png" alt="">
+            </a>
+            </div>
+            <div class="content">
+            <div class="tittle">Portfólio</div>
+            </div>
+            </div>
+
+            <div class="card" data-anime="top">
+            <div class="images-projects"><a href="https://wilsoncanuto.github.io/site-de-informatica">
+            <img class="projects-images" src="./images/projetos/projeto2.png" alt="">
+            </a>
+            </div>
+            <div class="content">
+            <div class="tittle">Site de informática</div>
+            </div>
+            </div>
+
+            <div class="card" data-anime="right">
+            <div class="images-projects"><a href="https://wilsoncanuto.github.io/atualiza-o-game/">
+            <img class="projects-images" src="./images/projetos/projeto3.png" alt="">
+            </a>
+            </div>
+            <div class="content">
+            <div class="tittle">Stranger-Strings-2022</div>
+            </div>
+            </div>
+
+            <div class="card" data-anime="left">
+            <div class="images-projects"><a href="https://wilsoncanuto.github.io/site-de-vendas/">
+            <img class="projects-images" src="./images/projetos/projeto4.png" alt="">
+            </a>
+            </div>
+            <div class="content">
+            <div class="tittle">Site que mostra exercícios </div>
+            </div>
+            </div>
+
+            <div class="card" data-anime="top">
+            <div class="images-projects"><a href="https://wilsoncanuto.github.io/pagina-responsiva-2022/">
+            <img class="projects-images" src="./images/projetos/projeto5.png" alt="">
+            </a>
+            </div>
+            <div class="content">
+            <div class="tittle">Site de doces</div>
+            </div>
+            </div>
+
+            <div class="card" data-anime="right">
+            <div class="images-projects"><a href="https://wilsoncanuto.github.io/projeto-02-front-end/">
+            <img class="projects-images" src="./images/projetos/projeto6.png" alt="">
+            </a>
+            </div>
+            <div class="content">
+            <div class="tittle">Portfólio atualização 01</div>
+            </div>
+            </div>
+
+            <div class="card" data-anime="left">
+            <div class="images-projects"><a href="https://wilsoncanuto.github.io/Projeto3-wilson-canuto-site-fam/">
+            <img class="projects-images" src="./images/projetos/projeto7.png" alt="">
+            </a>
+            </div>
+            <div class="content">
+            <div class="tittle">Site para Universidade</div>
+            </div>
+            </div>
+
+            <div class="card" data-anime="bottom">
+            <div class="images-projects"><a href="https://wilsoncanuto.github.io/site-de-exercicios/">
+            <img class="projects-images" src="./images/projetos/projeto8.png" alt="">
+            </a>
+            </div>
+            <div class="content">
+            <div class="tittle">Site de Exercícios</div>
+            </div>
+            </div>
+
+            <div class="card" data-anime="right">
+            <div class="images-projects"><a href="https://bicicletario-inteligente.netlify.app/">
+            <img class="projects-images" src="./images/projetos/projeto9.png" alt="">
+            </a>
+            </div>
+            <div class="content">
+            <div class="tittle">Site para Bicicletário de uma Universidade </div>
+            </div>
+            </div>
+
+            <div class="card" data-anime="left">
+            <div class="images-projects"><a href="https://wilsoncanuto.github.io/projeto-05-portfolio/">
+            <img class="projects-images" src="./images/projetos/projeto10.png" alt="">
+            </a>
+            </div>
+            <div class="content">
+            <div class="tittle">Portfólio atualização 02</div>
+            </div>
+            </div>
+
+            <div class="card" data-anime="bottom">
+            <div class="images-projects"><a href="https://wilsoncanuto.github.io/projeto-churrasco/">
+            <img class="projects-images" src="./images/projetos/projeto11.png" alt="">
+            </a>
+            </div>
+            <div class="content">
+            <div class="tittle">Calculando consumo na Churrascaria</div>
+            </div>
+            </div>
+
+            <div class="card" data-anime="right">
+            <div class="images-projects"><a href="https://wilsoncanuto.github.io/cronometro-04/">
+            <img class="projects-images" src="./images/projetos/projeto12.png" alt="">
+            </a>
+            </div>
+            <div class="content">
+            <div class="tittle">Cronômetro</div>
+            </div>
+            </div>
+
+            <div class="card" data-anime="right">
+            <div class="images-projects"><a href="https://wilsoncanuto.github.io/album-de-fotos/">
+            <img class="projects-images" src="./images/projetos/projeto13.png" alt="">
+            </a>
+            </div>
+            <div class="content">
+            <div class="tittle">Album de Fotos</div>
+            </div>
+            </div>
+    
+            <div class="card" data-anime="right">
+            <div class="images-projects"><a href="https://wilsoncanuto.github.io/relogio-digital/">
+            <img class="projects-images" src="./images/projetos/projeto14.png" alt="">
+            </a>
+            </div>
+            <div class="content">
+            <div class="tittle">Relógio Digital</div>
+            </div>
+            </div>
+        
+            <div class="card" data-anime="right">
+            <div class="images-projects"><a href="https://wilsoncanuto.github.io/jogo-de-memoria/">
+            <img class="projects-images" src="./images/projetos/projeto15.png" alt="">
+            </a>
+            </div>
+            <div class="content">
+            <div class="tittle">Jogo de Memória</div>
+            </div>
+            </div>
+
+                <div class="card" data-anime="right">
+                <div class="images-projects"><a href=" https://wilsoncanuto.github.io/projeto-artigos-PI/">
+                <img class="projects-images" src="./images/projetos/projeto16.png" alt="">
+                </a>
+                </div>
+                <div class="content">
+                <div class="tittle">Artigos PI</div>
+                </div>
+                </div>
+
+            <div class="card" data-anime="right">
+            <div class="images-projects"><a href="#">
+            <img class="projects-images" src="./images/projetos/novidade.gif" alt="">
+            </a>
+            </div>
+            <div class="content">
+            <div class="tittle">Em Breve Novidades</div>
+            </div>
+            </div>
+
+            <div class="card" data-anime="right">
+                <div class="images-projects"><a href="#">
+                <img class="projects-images" src="./images/projetos/novidade.gif" alt="">
+                </a>
+                </div>
+                <div class="content">
+                <div class="tittle">Em Breve Novidades</div>
+                </div>
+                </div>
+
+        </div>
+
+    </div>
+
+    <!-- CONTAINER OF CONTACT -->
+
+
+    <div id="contact-container">
+        <h1 id="contact-text">Contato</h1>
+
+        <div id="container-images-contact">
+        
+            <a href="https://www.linkedin.com/in/wilson-canuto-29a31b105" data-anime="left">
+            <img class="img-social-media" src="./images/linkedin.png"  alt=""></a>
+            
+            
+            <a href="https://wa.me/5511920075447"><img class="img-social-media" src="./images/whatsapp.png" 
+            alt="" data-anime="top"></a>
+
+            <a href="https://github.com/wilsoncanuto"><img class="img-social-media" src="./images/github.png" 
+            alt="" data-anime="right"></a>
+    
+           </div>
+
+               </div>
+                    <center><br><br><br><br>
+                    
+                    <h1 style="color:rgba(242, 242, 251, 0.984);">Contato:</h1>
+                    <br>
+                    <h1 style="color:rgb(242, 242, 249);">wcwilson215@gmail.com</h1>
+                    <br>
+                    <h1 style="color:rgb(240, 240, 248);">(11) 9200-75447</h1>
+                    <br>
+                    <h1 style="color:rgb(244, 244, 248);">São Paulo - S.P - <img src="images/zap.gif"></h1>
+                    <br>
+
+                    </div>
+
+                </div>
+        
+            </div>
+
+    </div>
+
+    <p id="copyright">Wilson Canuto Graciano 2022 &copy; Todos os Direitos Reservados.</p>
+
+    <!-- LINK JAVASCRIPT -->
+    <script src="portfolio.js"></script>
+
+</body>
+
+</html>
